@@ -1,0 +1,265 @@
+.CategoryInfoWrap {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.ChallengeListButtonWrap {
+    margin-top: 40px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ChallengeListButtonWrap button {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: transparent;
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.CategoryInfoTextWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.CategoryInfoText {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Noto Sans CJK KR";
+    margin-left: 20px;
+    width: 100%;
+}
+.CategoryInfomation {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.CategoryInfomation img {
+    border-radius: 10%;
+    width: 240px;
+    height: 240px;
+}
+.CategoryInfo {
+    color: #e2e2e2;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Noto Sans CJK KR";
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+.CategoryInfoHashTag {
+    color: #03a63c;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Noto Sans CJK KR";
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+    word-break: normal;
+}
+.CategoryMusicCard {
+    width: 13%;
+    height: 33%;
+    margin: 2%;
+    text-align: center;
+    margin-top: 4%;
+    background-color: #7EC850;
+    border-radius: 50px 20px;
+    cursor: pointer;
+}
+
+.CategoryMusicCard img {
+    cursor: pointer;
+    width: 90%;
+}
+
+.CategoryMusicName {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    overflow: hidden;
+}
+
+.SovledName {
+    color: #03a63c;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.NotSolvedName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.CategoryMusicList {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+    margin-left: 8%;
+}
+.CategoryMusicIndex {
+    font-size: 20px;
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+}
+.CategoryMusicImg {
+    margin-left: 2%;
+}
+.CategoryMusicImg img {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+.CategoryMusicSong {
+    width: 250px;
+    text-align: left;
+    margin-left: 3%;
+    font-family: "Noto Sans CJK KR";
+    font-size: 21px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.CategoryMusicAuthor {
+    color: #d8e2d9;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.CategoryMusicAndScore {
+    width: 20%;
+    text-align: left;
+    font-family: "Noto Sans CJK KR";
+    font-size: 13px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.CategoryMusicCategory {
+    text-align: center;
+}
+.CategoryMusicScore {
+    color: #d8e2d9;
+    font-family: "Noto Sans CJK KR";
+    font-size: 19px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+
+@media (max-width: 1830px) {
+    .CategoryMusicCard {
+        margin-top: 20px;
+        width: 15%;
+        height: 40%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .CategoryMusicCard {
+        margin-top: 20px;
+        width: 15%;
+        height: 40%;
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+    .CategoryMusicCard {
+        margin-top: 20px;
+        width: 15%;
+        height: 40%;
+        text-align: center;
+    }
+}
+@media (max-width: 750px) {
+    .ChallengeListButtonWrap {
+        display: none;
+    }
+}
+@media (max-width: 550px) {
+    .CategoryMusicCard {
+        margin-top: 20px;
+        width: 15%;
+        text-align: center;
+    }
+}
+@media (max-width: 1070px) {
+    .CategoryInfomation {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .CategoryInfoTextWrap {
+        margin: 0;
+    }
+    .CategoryInfoText {
+        margin: 0;
+    }
+    .CategoryInfo {
+        margin: 0;
+    }
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

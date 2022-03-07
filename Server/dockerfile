@@ -1,0 +1,21 @@
+FROM gradle:7.4.0-jdk11-alpine
+
+RUN apk update &&\
+    apk upgrade &&\
+    apk add bash &&\
+    apk --no-cache add tzdata &&\
+    cp /usr/share/zoneinfo/Asia/Seoul /etc/localtime &&\
+    echo "Asia/Seoul" >  /etc/timezone &&\
+    date
+
+COPY . /server
+
+WORKDIR /server
+
+RUN ./gradlew -Pprofile=prod -x test build
+    
+EXPOSE 8080
+
+STOPSIGNAL SIGQUIT
+
+CMD ["java", "-Dspring.profiles.active=prod", "-jar", "/server/build/libs/winterctf-0.0.1-SNAPSHOT.jar"]

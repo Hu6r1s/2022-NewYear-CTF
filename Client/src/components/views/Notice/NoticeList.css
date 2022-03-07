@@ -1,0 +1,98 @@
+.NoticeWrap {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+.NoticeListWrap {
+    margin-top: 30px;
+    /* background: url(../../../../public/panel.png) no-repeat; */
+    /* background-size: inherit; */
+}
+
+.NoticeText {
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+    font-size: 20px;
+    color: #03a63c;
+    margin-left: 20px;
+}
+
+.NoticeListItem {
+    color: #ffffff;
+    border-bottom: 1px #3c3e4c solid;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 90%;
+    padding-bottom: 10px;
+}
+.NoticeID {
+    font-size: 20px;
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+    border-bottom: 1px solid #e2e2e2;
+}
+.NoticeTitle {
+    width: 60%;
+    text-align: left;
+    margin-left: 3%;
+    font-family: "Noto Sans CJK KR";
+    font-size: 20px;
+    font-weight: bold;
+}
+.NoticeWriter {
+    width: 20%;
+    margin-left: auto;
+    text-align: center;
+    font-family: "Noto Sans CJK KR";
+    font-size: 20px;
+    font-weight: bold;
+    color: #e2e2e2;
+}
+.NoticeCreatedAt {
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+    font-weight: bold;
+    color: #e2e2e2;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

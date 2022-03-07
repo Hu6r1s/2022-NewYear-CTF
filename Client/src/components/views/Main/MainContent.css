@@ -1,0 +1,319 @@
+.MainContentWrap {
+    background-color: #88d8b1;
+    width: 100%;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+    /* background: url(../../../../public/panel.png) no-repeat;
+    object-fit: cover; */
+}
+
+.RecommandText {
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+    font-size: 20px;
+    color: #03a63c;
+    width: auto;
+}
+.RecommandPlayList {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+
+.PlayListCard {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 14%;
+    text-align: center;
+}
+.PlayListCard img {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+    height: 160px;
+}
+.HotGameList {
+    margin-top: 30px;
+    margin-left: 50px;
+    animation: fadein 2s;
+    -moz-animation: fadein 1.5s; /* Firefox */
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+.HotGameText {
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+    font-size: 20px;
+    color: #03a63c;
+}
+.HotGameCard {
+    color: #ffffff;
+    border-bottom: 1px #3c3e4c solid;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.HotGameItemList {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.NewGameText {
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+    font-size: 20px;
+    color: #03a63c;
+}
+.NewGameName {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.NewGameScore {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.NewGameArtist {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.NewGameList {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 18px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 43px;
+}
+
+.HotGameImg img {
+    height: 60px;
+    width: 60px;
+}
+
+.GameRanking {
+    font-size: 20px;
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.HotGameImg {
+    margin-left: 2%;
+}
+
+.HotGameTitle {
+    width: 250px;
+    text-align: left;
+    margin-left: 3%;
+    font-family: "Noto Sans CJK KR";
+    font-size: 13px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    overflow: hidden;
+}
+
+.HotGameAuth {
+    width: 20%;
+    margin-left: 2%;
+    font-family: "Noto Sans CJK KR";
+    font-size: 13px;
+    color: #e2e2e2;
+}
+
+.HotGameCategoryAndScore {
+    width: 20%;
+    text-align: left;
+    font-family: "Noto Sans CJK KR";
+    font-size: 13px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-container {
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.CardFlexBox {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.PlayListCardWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.HotGameScore {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.HotGameCategory {
+    text-align: center;
+}
+
+.RecommandCategroyText {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-weight: bold;
+    cursor: pointer;
+}
+@media (max-width: 1400px) {
+    .HotGameCard {
+        width: 98%;
+    }
+    .HotGameTitle {
+        margin-left: 3%;
+    }
+    .HotGameAuth {
+        margin-left: 3%;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* @media (min-width: 1400px) {
+    .HotGameCard {
+        width: auto;
+    }
+} */
+
+/* @media (max-width: 1858px) {
+    .PlayListCard {
+        width: 14%;
+    }
+} */
+/* @media (max-width: 1830px) and (min-width: 1400px) {
+    .PlayListCard {
+        width: 20%;
+    }
+} */
+
+/* @media (max-width: 1280px) {
+    .PlayListCard {
+        width: 30%;
+    }
+    .PlayListCard img {
+        width: auto;
+        height: auto;
+    }
+} */
+
+@media (max-width: 1250px) {
+    .PlayListCard {
+        width: 45%;
+    }
+    .PlayListCard img {
+        height: auto;
+    }
+}
+
+@media (max-width: 630px) {
+    .PlayListCard {
+        width: 90%;
+    }
+    .PlayListCard img {
+        height: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .MainRightWrap {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .HotGameCard {
+        width: 98%;
+    }
+    .HotGameTitle {
+        word-wrap: break-word;
+        width: 90px;
+        margin-left: 2%;
+    }
+    .HotGameAuth {
+        word-wrap: break-word;
+        margin-left: 2%;
+    }
+}

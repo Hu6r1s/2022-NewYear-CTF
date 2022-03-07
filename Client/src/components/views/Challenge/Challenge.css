@@ -1,0 +1,304 @@
+.ChallengeWrap {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.ChallengeImg {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+.ChallengeInfoName {
+    color: #03a63c;
+    font-family: "Noto Sans CJK KR";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    min-width: 180px;
+}
+.ChallengeName {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.ChallengeInfo {
+    display: flex;
+    margin-top: 30px;
+}
+.ChallengeContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    /* justify-content: center; */
+}
+.ChallengeInfoAuthor {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+}
+.ChallengeInfoPlayCount {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+}
+.ChallengeInfoWatchCount {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+}
+.ChallengeInfoScore {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+}
+.ChallengeAuthorStory {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.AuthorStoryText {
+    color: #03a63c;
+    font-family: "Noto Sans CJK KR";
+    font-size: 25px;
+    font-weight: bold;
+}
+.AuthorStory {
+    margin-top: 10px;
+    font-family: "Noto Sans CJK KR";
+    font-size: 17px;
+    color: #ffffff;
+}
+.ChallengeDownloadWrap {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.ChallengeDownload {
+    display: flex;
+    background-color: #636363;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-family: "Noto Sans CJK KR";
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.ChallengeDownloadText {
+    display: flex;
+    font-family: "Noto Sans CJK KR";
+    color: #03a63c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.ChallengeFlagInput {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.ChallengeFlagInputText {
+    font-family: "Noto Sans CJK KR";
+    font-size: 25px;
+    font-weight: bold;
+    color: #03a63c;
+    padding-right: 30px;
+}
+.ChallengeFlagInputField {
+    width: 60%;
+    min-width: 250px;
+    display: flex;
+    margin-top: 10px;
+}
+.ChallengeFlagInputField .MuiInputBase-input {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    background-color: #88d8b1;
+}
+.ChallengeFlagInputField label.Mui-focused {
+    color: white;
+}
+
+.ChallengeFlagInputField .MuiOutlinedInput-root fieldset {
+    border: 2px solid #88d8b1;
+}
+.ChallengeFlagInputField .MuiOutlinedInput-root:hover fieldset {
+    border: 2px solid #636363;
+}
+
+.ChallengeFlagInputField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 2px solid #636363;
+}
+.ChallengeCouponButton {
+    display: flex;
+    background-color: #636363;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    font-family: "Noto Sans CJK KR";
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.InfoText {
+    color: #03a63c;
+    font-family: "Noto Sans CJK KR";
+    font-size: 18px;
+    font-weight: bold;
+}
+.ChallengeCommentText {
+    font-family: "Noto Sans CJK KR";
+    color: #03a63c;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.InfoValue {
+    font-family: "Noto Sans CJK KR";
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.SolveText {
+    margin-top: 5px;
+    font-family: "Noto Sans CJK KR";
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.ChallengeInputLoading {
+    width: 100%;
+}
+.ChallengeComment {
+    margin-top: 20px;
+    font-family: "Noto Sans CJK KR";
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.ChallengeCommentListItem {
+    color: #ffffff;
+    border-bottom: 1px #3c3e4c solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.ChallengeCommentWriter {
+    font-family: "Noto Sans CJK KR";
+    font-size: 20px;
+    font-weight: normal;
+    width: 20%;
+    cursor: pointer;
+}
+.ChallengeCommentContent {
+    font-family: "Noto Sans CJK KR";
+    font-size: 20px;
+    font-weight: normal;
+    width: 40%;
+}
+.ChallengeCommentCreatedAt {
+    margin-left: auto;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+    font-weight: normal;
+    width: 20%;
+}
+.NoComment {
+    font-family: "Noto Sans CJK KR";
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+@media (max-width: 551px) {
+    .ChallengeDownload {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 920px) {
+    .ChallengeFlagInput {
+        flex-direction: column;
+    }
+    /* .ChallengeFlagInputText {
+        margin-top: 20px;
+        text-align: center;
+        padding-right: 0px;
+    } */
+    .ChallengeFlagInputField {
+        margin-top: 20px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .ChallengeCouponButton {
+        margin-top: 20px;
+    }
+    .ChallengeDownloadWrap {
+        display: flex;
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    .ChallengeDownload {
+        margin-top: 20px;
+    }
+    .ChallengeInfo {
+        justify-content: center;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

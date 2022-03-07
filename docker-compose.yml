@@ -1,0 +1,41 @@
+version: "3.7"
+
+services:
+  db:
+    image: mysql:latest
+    cap_add:
+      - SYS_NICE
+    volumes:
+      - ./db:/var/lib/mysql
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_DATABASE=2021winterctf
+      - MYSQL_USER=winterctf
+      - MYSQL_PASSWORD=developereagercoolnice
+      - MYSQL_ROOT_PASSWORD=developere2ageracooln3ice
+  
+  backend:
+    build:
+      context: ./Server
+      dockerfile: dockerfile
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./Client
+      dockerfile: dockerfile
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+      - "18123:18123"
+      - "18124:18124"
+    depends_on:
+      - backend
+    

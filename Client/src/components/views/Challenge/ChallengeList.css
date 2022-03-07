@@ -1,0 +1,219 @@
+.ChallengeListWrap {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+.ChallengeListButtonWrap button {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: transparent;
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.ChallengeListButtonWrap {
+    margin-top: 40px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ChallengeList {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.CategoryButton {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    background-color: #303030;
+    border: 3px solid #3c3e4c;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-size: 16px;
+    font-weight: bold;
+}
+.CategoryButton:hover {
+    background-color: #3c3e4c;
+    transition: all 0.5s;
+}
+.CategoryButton span {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+}
+.CategoryButtonCheked {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    background-color: #3c3e4c;
+    border: 3px solid #3c3e4c;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.CategoryListText {
+    display: flex;
+    font-family: "Noto Sans CJK KR";
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+}
+
+.CategoryButtonBox {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.CategoryListTop {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3c3e4c;
+}
+.CategoryButtonList {
+    display: flex;
+    margin-left: 30px;
+}
+.ChallengeText {
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+    font-size: 20px;
+    color: #03a63c;
+    margin-left: 20px;
+}
+.ChallengeCard {
+    width: 15%;
+    height: 33%;
+    margin: 2%;
+    text-align: center;
+    margin-top: 4%;
+    background-color: #7EC850;
+    border-radius: 50px 20px;
+}
+
+.NewChallengeName {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    overflow: hidden;
+}
+.SovledName {
+    color: #03a63c;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.NotSolvedName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.NewChallengeAuthor {
+    color: #d8e2d9;
+    font-family: "Noto Sans CJK KR";
+    font-size: 15px;
+    margin-top: 1px;
+    text-align: center;
+}
+.NewChallengeScore {
+    color: #d8e2d9;
+    font-family: "Noto Sans CJK KR";
+    font-size: 19px;
+    margin-top: 1px;
+    text-align: center;
+}
+.ChallengeCard img {
+    cursor: pointer;
+    width: 90%;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1830px) {
+    .ChallengeCard {
+        margin-top: 20px;
+        width: 15%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .ChallengeCard {
+        margin-top: 20px;
+        width: 15%;
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+    .ChallengeCard {
+        margin-top: 20px;
+        width: 15%;
+        text-align: center;
+    }
+}
+@media (max-width: 750px) {
+    .ChallengeListButtonWrap {
+        display: none;
+    }
+}
+@media (max-width: 550px) {
+    .ChallengeCard {
+        margin-top: 20px;
+        width: 15%;
+        text-align: center;
+    }
+}

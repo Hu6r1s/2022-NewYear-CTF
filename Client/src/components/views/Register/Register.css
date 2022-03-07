@@ -1,0 +1,56 @@
+.RegisterFormWrap {
+    width: 600px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.FormWrap {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.ErrorMessage {
+    color: red;
+    font-family: "Noto Sans CJK KR";
+}
+.FormWrap .MuiInputBase-input {
+    color: #ffffff;
+    font-family: "Noto Sans CJK KR";
+}
+.FormWrap label.Mui-focused {
+    color: white;
+}
+
+.FormWrap .MuiOutlinedInput-root fieldset {
+    border: 1px solid white;
+}
+.FormWrap .MuiOutlinedInput-root:hover fieldset {
+    border: 1px solid white;
+}
+
+.FormWrap .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 1px solid white;
+}
+.RegisterButtonWrap {
+    text-align: center;
+    margin-top: 30px;
+}
+.RegisterBtn {
+    cursor: pointer;
+    font-family: "Noto Sans CJK KR";
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3c3e4c;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+.RegisterBtn:hover {
+    background-color: #5a5d72;
+    transition: all 0.5s;
+}

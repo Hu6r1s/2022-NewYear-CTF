@@ -1,0 +1,94 @@
+.ChallengeCategoryText {
+    font-family: "Noto Sans CJK KR";
+    font-weight: Bold;
+    font-size: 20px;
+    color: #03a63c;
+    margin-left: 50px;
+}
+.ChallengeCategoryWrap {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+.ChallengeCategoryCardList {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ChallengeCategoryCard {
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ChallengeCategoryCard img {
+    width: 70%;
+    height: 80%;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.CategoryName {
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Noto Sans CJK KR";
+    color: #ffffff;
+    cursor: pointer;
+}
+/* @media (max-width: 1280px) {
+    .ChallengeCategoryCard {
+        width: 31%;
+    }
+} */
+
+@media (max-width: 970px) {
+    .ChallengeCategoryCard {
+        width: 95%;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
